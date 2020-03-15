@@ -141,7 +141,7 @@ header {
 .lesson-icon p {
     position: absolute;
     top: 44%;
-    /* margin: 0; */
+    margin: 0;
     width: 100%;
     color: white;
 }
@@ -192,4 +192,51 @@ footer p {
 footer {
     padding-top: 30px;
     padding-bottom: 20px;
+}
+
+@media all and (max-width: 480px) {
+    .header-logo {
+        width: 100px;
+        margin-top: 23px;
+    }
+    
+    .header-right {
+        font-size: 14px;
+    }
+
+    .lesson {
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .btn {
+        width: 210px;
+    }
+
+    .facebook {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .lesson-icon p {
+        top: 90px;
+    }
+
+    .header-right {
+        margin: 0;
+        text-align: center;
+    }
+    .header-right a {
+        padding: 0 5px;
+    }
+
+    .top-wrapper {
+        padding: 120px 0 80px 0;
+    }
+
+    .top-wrapper h1 {
+        font-size: 24px;
+        letter-spacing: 0.1em;
+    }
 }
